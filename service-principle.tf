@@ -1,5 +1,7 @@
-data "azurerm_client_config" "current" {}
+
 /*
+data "azurerm_client_config" "current" {}
+
 data "azuread_service_principal" "exampleSP" {
   application_id  = "2f1e7cfd-dafa-45ef-9efd-510267a4b5a3"
 }
